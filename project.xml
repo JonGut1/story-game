@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="StoryGame" package="com.sample.storygame" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="StoryGame" />
+
+	<window width="1280" height="720" />
+	<window background="#000000" fps="60" />
+	<window if="desktop" orientation="landscape" resizable="false" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+	
+	<assets path="assets/img" rename="img" />
+	<assets path="Assets/data" rename="data" />
+
+	
+</project>
